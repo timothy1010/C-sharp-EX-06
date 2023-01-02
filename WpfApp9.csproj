@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="bold.png" />
+    <None Remove="delete.png" />
+    <None Remove="folder.png" />
+    <None Remove="italic.png" />
+    <None Remove="new-document.png" />
+    <None Remove="save-file.png" />
+    <None Remove="underline.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="bold.png" />
+    <Resource Include="delete.png" />
+    <Resource Include="folder.png" />
+    <Resource Include="italic.png" />
+    <Resource Include="new-document.png" />
+    <Resource Include="save-file.png" />
+    <Resource Include="underline.png" />
+  </ItemGroup>
+
+</Project>
